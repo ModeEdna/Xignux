@@ -1,0 +1,8 @@
+library(tidyverse)
+library(readxl)
+library(Hmisc)
+setwd("C:/Users/Eduardo.Armenta/Desktop/Xignux/Proyecto Consolidacion de Compras")
+describe(Compras_2019_Indirectos_Qualtia)
+summary(Compras_2019_Indirectos_Qualtia)
+describe(Info_Recepciones_2019_Viakable)
+summary(Info_Recepciones_2019_Viakable)
